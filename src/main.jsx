@@ -17,9 +17,10 @@ import Login from './components/Login/Login.jsx';
 import Register from './components/Register/Register.jsx';
 import AuthProvider from './contexts/AuthProvider.jsx';
 import Orders from './components/Orders/Orders.jsx';
-import PrivateRoute from './routes/PrivateRoute.jsx';
+
 import Profile from './components/Profile/Profile.jsx';
 import Dashboard from './components/Dashboard/Dashboard.jsx';
+import PrivateRoute from "./Routes/PrivateRoute.jsx";
 
 // Firebase configuration using environment variables
 const firebaseConfig = {
